@@ -57,6 +57,7 @@ def hello():
 	for i in range (NumQuantLevels[0]**2):
 		GLCM= gl[i]/sum(gl)
 		GLCMProb.append(GLCM)
+	return glcm
 
 
 
